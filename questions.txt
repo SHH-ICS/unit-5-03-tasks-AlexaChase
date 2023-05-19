@@ -1,0 +1,8 @@
+The multiple choice question is: What colour is best?
+1. Blue
+2. Green
+3. Orange
+4. Yellow
+Please type your answer here: 
+
+The answer is: Blue

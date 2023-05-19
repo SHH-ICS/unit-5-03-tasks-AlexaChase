@@ -7,6 +7,7 @@ Option3= input("3. ")
 Option4= input("4. ")
 Answer= input("The answer is: ")
 filehandle= open("questions.txt", 'w')
-filehandle.writelines(["\nThe multiple choice question is: ", Question, "\n1. ", Option1,"\n2. ",
+filehandle.writelines(["The multiple choice question is: ", Question, "\n1. ", Option1,"\n2. ",
                        Option2, "\n3. ", Option3, "\n4. ", Option4, #Continuation of the code above
-                       "\nPlease type your answer here: ", "\nThe answer is: ", Answer]) #Continuation of the code above
+                       "\nPlease type your answer here: \n", "\nThe answer is: ", Answer]) #Continuation of the code above
+filehandle.close()
