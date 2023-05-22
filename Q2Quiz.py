@@ -2,8 +2,7 @@
 # The program will keep score of the number of questions answered correctly.
 filehandle=  open("questions.txt", 'r')
 line = filehandle.readline()
-while line != "The answer is: ":
-    if line != "The answer is: ":
-        print(line)
-        line = filehandle.readline()
+if line != "The answer is: ":
+    print(line)
+    line = filehandle.readline()
 filehandle.close()
