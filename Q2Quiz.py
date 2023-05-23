@@ -3,6 +3,7 @@
 filehandle=  open("questions.txt", 'r')
 line = filehandle.readline()
 if line != "The answer is: ":
-    print(line)
-    line = filehandle.readline()
+    while line!= "The answer is: ":
+        print(line)
+        line = filehandle.readline()
 filehandle.close()
