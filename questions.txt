@@ -1,8 +1,8 @@
-The multiple choice question is: What colour is best?
-1. Blue
-2. Green
-3. Orange
-4. Yellow
+The multiple choice question is: What language am I writing this program in?
+1. Python
+2. HTML
+3. PHP
+4. Java
 Please type your answer here: 
 
-The answer is: Blue
+The answer is: Python
